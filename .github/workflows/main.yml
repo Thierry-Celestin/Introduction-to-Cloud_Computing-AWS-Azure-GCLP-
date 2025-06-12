@@ -1,4 +1,4 @@
-name: CI/CD on AWS
+name: CI/CD with AWS
 on: [push]
 jobs:
   build:
