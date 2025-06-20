@@ -2,6 +2,8 @@
 
 # Introduction-to-Cloud_Computing-AWS-Azure-GCLP-
 This repo is a brief scaffold project for beginners into AWS, AZURE and GCP. It consists of laying down a comprehensive view of continuous integration and continuous delivery. This is a repo for building out Github Actions and Tricks. I test multiple clouds
+[![Workflow](https://img.youtube.com/vi/rXXtJpcVems/0.jpg)](https://www.youtube.com/watch?v=rXXtJpcVems)
+
 
 ## Steps to run this project
 
