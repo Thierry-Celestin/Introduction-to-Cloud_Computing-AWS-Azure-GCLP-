@@ -1,4 +1,4 @@
-def add(x, y):
+def add2(x, y):
     return x + y
 
 def toyou(x):
@@ -6,6 +6,9 @@ def toyou(x):
 
 def subtract(x):
     return x - 1
+
+def add1(x):
+    return x + 1
 
 
 # var=
