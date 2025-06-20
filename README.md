@@ -111,33 +111,32 @@ def test_add2():
 
 * Run `make all` which will install, lint and test code.
 
-* Setup Github Actions in `pythonapp.yml`
+* Setup Github Actions in `azure.yml` this is for azure config. for AWS, it is similar
 
 ```yaml
-name: Python application test with Github Actions
-
+name: CI/CD with Azure
 on: [push]
-
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.5
-      uses: actions/setup-python@v1
+    - name: Set up Python 3.10.17
+      uses: actions/setup-python@v4
       with:
-        python-version: 3.5
+        python-version: 3.10.17
     - name: Install dependencies
       run: |
-        make install
-    - name: Lint with pylint
+        make install-azure
+    - name: Lint with Pylint
       run: |
         make lint
-    - name: Test with pytest
+    - name: Test with Pytest
       run: |
         make test
+    - name: Format code with Python black
+      run: |
+        make format
 ```
 
 * Commit changes and push to Github
