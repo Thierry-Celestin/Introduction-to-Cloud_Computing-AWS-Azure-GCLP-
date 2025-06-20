@@ -78,7 +78,7 @@ def add1(x):
 
 
 # var=
-result = add(1, 2)
+result = add2(1, 2)
 print("This is the sum: 1, 2, %s" % result)
 ```
 
@@ -105,7 +105,7 @@ def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
 
 def test_add2():
-    assert add(1, 2) == 3
+    assert add2(1, 2) == 3
 ```
 
 
