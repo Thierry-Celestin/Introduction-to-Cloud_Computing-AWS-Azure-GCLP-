@@ -23,10 +23,6 @@ install-azure:
 	pip install --upgrade pip &&\
 		pip install -r requirements-azure.txt
 
-install-azure:
-	pip install --upgrade pip &&\
-		pip install -r requirements-azure.txt
-
 format:
 	black *.py
 
@@ -52,6 +48,9 @@ The requirements.txt should include:
 ```bash
 pylint
 pytest
+click
+black
+pytest-cov
 ```
 
 * Create a python virtual environment and source it if not created
