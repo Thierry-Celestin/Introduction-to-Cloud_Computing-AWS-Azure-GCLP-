@@ -1,7 +1,7 @@
 [![Python 3.9.22](https://github.com/Thierry-Celestin/Introduction-to-Cloud_Computing-AWS-Azure-GCLP-/actions/workflows/main.yml/badge.svg)](https://github.com/Thierry-Celestin/Introduction-to-Cloud_Computing-AWS-Azure-GCLP-/actions/workflows/main.yml)
 
 # Introduction-to-Cloud_Computing-AWS-Azure-GCLP-
-This repo is a brief scaffold project for beginners into AWS, AZURE and GCP. It consists of laying down a comprehensive view of continuous integration and continuous delivery
+This repo is a brief scaffold project for beginners into AWS, AZURE and GCP. It consists of laying down a comprehensive view of continuous integration and continuous delivery. This is a repo for building out Github Actions and Tricks. I test multiple clouds
 
 ## Steps to run this project
 
