@@ -84,7 +84,7 @@ print("This is the sum: 1, 2, %s" % result)
 
 test_hello.py
 ```python
-from hello import toyou, add, subtract
+from hello import add2, add1, toyou, subtract 
 
 
 def setup_function(function):
@@ -99,11 +99,13 @@ def teardown_function(function):
 
 ### Run to see failed test
 #def test_hello_add():
-#    assert add(test_hello_add.x) == 12
+#    assert add(test_hello_add1.x) == 12
 
 def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
 
+def test_add2():
+    assert add(1, 2) == 3
 ```
 
 
