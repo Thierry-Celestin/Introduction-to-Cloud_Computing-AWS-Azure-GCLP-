@@ -111,7 +111,7 @@ def test_add2():
 
 * Run `make all` which will install, lint and test code.
 
-* Setup Github Actions in `azure.yml` this is for azure config. for AWS, it is similar
+* Setup Github Actions in `azure.yml` this is for azure config. For AWS, it is similar
 
 ```yaml
 name: CI/CD with Azure
